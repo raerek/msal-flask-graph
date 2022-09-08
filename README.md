@@ -1,4 +1,15 @@
 # msal-flask-graph
+
+This repo features mainly the code from https://github.com/datamel/msal-flask-graph with some tiny modifications.
+
+Remarks:
+- [Article mentioned below can be found here.](https://www.codeproject.com/Articles/5318952/Microsoft-Graph-Authentication-in-Python)
+- Register the app in Azure AD as Web app. Redirect URL can be found in the `app_config.py` file.
+- OneNote Demo page does not work with personal accounts, due to the scope specified in `app_config.py`. [Notes.Read.All and Notes.ReadWrite.All are only valid for work or school accounts.](https://docs.microsoft.com/en-us/graph/permissions-reference#remarks-14)
+- TEAM_ID can be extracted from the Team Link. Open Teams client, click on Teams (left bar), choose … and Get link to team. Use the `groupId` in the URL.
+
+*---ORIGINAL README FORM HERE---*
+
 Python Flask App utilizing Microsoft Authentication Library (MSAL), Microsoft Azure Active Directory and Microsoft Graph
 
 This code accompanies articles written by Mel Hall in which we create a Flask Web App.

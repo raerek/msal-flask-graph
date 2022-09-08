@@ -12,4 +12,4 @@ SESSION_TYPE = "filesystem"  # So the token cache will be stored in a server-sid
 REDIRECT_PATH = "http://localhost:5000/getAToken"
 CLIENT_SECRET = "<ENTER CLIENT SECRET FROM Azure Active Directory HERE>"
 CLIENT_ID = "<ENTER CLIENT ID FROM Azure Active Directory HERE>"
-TEAM_ID = "<ENTER TEAM ID FROM TEAMS or GRAPH HERE>" 
+TEAM_ID = "<ENTER TEAM ID FROM TEAMS or GRAPH HERE>"
